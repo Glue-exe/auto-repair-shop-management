@@ -88,4 +88,4 @@ The app starts with a single active mechanic session and loads existing data fro
 
 ## License
 
-No license specified.
+No license specified — for educational/personal portfolio use.
