@@ -4,7 +4,7 @@ A Java console application for managing an auto repair shop: customers, their ca
 
 ## Overview
 
-This is an object-oriented, menu-driven CLI (command-line interface, ส่วนติดต่อแบบพิมพ์คำสั่ง/เลือกเมนูในหน้าจอข้อความ) tool built around a single active `Mechanic` who registers customers and their cars, manages a parts/services catalog, opens repair orders, and prints receipts. All state is loaded from and saved back to JSON files on disk, so data survives between runs without needing a database.
+This is an object-oriented, menu-driven CLI (command-line interface) tool built around a single active `Mechanic` who registers customers and their cars, manages a parts/services catalog, opens repair orders, and prints receipts. All state is loaded from and saved back to JSON files on disk, so data survives between runs without needing a database.
 
 ## Features
 
@@ -60,7 +60,7 @@ java -cp .:json-simple-1.1.1.jar Main      # macOS/Linux
 java -cp .;json-simple-1.1.1.jar Main      # Windows
 ```
 
-The app starts with a fixed default mechanic (`Kacha Punturat`) and loads existing data from the `.json` files in the working directory automatically.
+The app starts with a single active mechanic session and loads existing data from the `.json` files in the working directory automatically.
 
 ### Menu options
 
@@ -86,4 +86,6 @@ The app starts with a fixed default mechanic (`Kacha Punturat`) and loads existi
 
 > The bundled `*.json` files contain sample/seed data — delete or edit them to start from a clean slate.
 
-## Lic
+## License
+
+No license specified.
