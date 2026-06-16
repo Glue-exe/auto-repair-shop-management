@@ -78,11 +78,12 @@ The app starts with a fixed default mechanic (`Kacha Punturat`) and loads existi
 | 10 | Service management |
 | 0 | Exit |
 
-## Notes
+## Future Improvements
 
-- This was built as a class/group project (folder name `G03`), so naming and structure are tailored to a single-mechanic shop rather than multi-user concurrency.
-- Data files (`*.json`) ship with sample/seed data; delete or edit them to start from a clean slate.
+- Support multiple mechanics / multi-user accounts instead of a single fixed mechanic
+- Migrate from flat JSON files to a proper database (e.g. SQLite or MySQL)
+- Add input validation and automated tests
 
-## License
+> The bundled `*.json` files contain sample/seed data — delete or edit them to start from a clean slate.
 
-No license specified — for educational/coursework use.
+## Lic
